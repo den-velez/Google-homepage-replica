@@ -64,8 +64,14 @@
   height: 100%;
   border: none;
   font-size: 14px;
+  outline: none;
 }
-
+.textoBusqueda:focus {
+  border: none;
+}
+.textoBusqueda:active {
+  border: none;
+}
 .contenedoresIconosBusqueda {
   height: 95%;
   width: 5%;
