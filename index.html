@@ -9,14 +9,20 @@
   <body>
     <header class="header">
       <nav class="navegacion">
-        <span class="textoNavegador">Gmail</span>
-        <span class="textoNavegador">Imágenes</span>
-        <figure class="contenedorOpciones">
-          <img src="assets/opciones.png" alt="opciones" />
-        </figure>
-        <figure class="contenedorAvatar">
-          <img src="assets/avatar.png" alt="avatar" />
-        </figure>
+        <ul class="listaNavegacion">
+          <li><a href="/">Gmail</a></li>
+          <li><a href="/">Imagenes</a></li>
+          <li>
+            <a href="/" class="contenedorOpciones">
+              <img src="assets/opciones.png" alt="opciones" />
+            </a>
+          </li>
+          <li class="contenedorAvatar">
+            <a href="/">
+              <img src="assets/avatar.png" alt="avatar" />
+            </a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main class="hero">
@@ -39,7 +45,7 @@
         </div>
         <div>
           <span class="textoAdicional"> Ofrecido por Google en:</span>
-          <span class="textoAdicionalAzul">Español (Latinoamerica)</span>
+          <a href="/" class="textoAdicionalAzul">Español (Latinoamerica) </a>
         </div>
       </div>
     </main>
@@ -52,17 +58,19 @@
       <div class="Opciones-Footer">
         <div class="contenedorListaFooter">
           <ul class="listaFooter">
-            <li class="textoFooter">Publicidad</li>
-            <li class="textoFooter">Negocios</li>
-            <li class="textoFooter">Sobre Google</li>
-            <li class="textoFooter">Como funciona la busqueda</li>
+            <li><a class="textoFooter" href="/">Publicidad</a></li>
+            <li><a class="textoFooter" href="/">Negocios</a></li>
+            <li><a class="textoFooter" href="/">Sobre Google</a></li>
+            <li>
+              <a class="textoFooter" href="/">Como funciona la busqueda</a>
+            </li>
           </ul>
         </div>
         <div class="contenedorListaFooter">
           <ul class="listaFooter">
-            <li class="textoFooter">Privacidad</li>
-            <li class="textoFooter">Condiciones</li>
-            <li class="textoFooter">Prefencias</li>
+            <li><a class="textoFooter" href="/">Privacidad</a></li>
+            <li><a class="textoFooter" href="/">Condiciones</a></li>
+            <li><a class="textoFooter" href="/">Prefencias</a></li>
           </ul>
         </div>
       </div>
